@@ -28,8 +28,8 @@ graph TD
     B -->|质押/ABS融资| I[商业银行]
 
     class A gov
-    class C,D,E company
-    class B,C1,C2,C3 tech
+    class C1,C2,C3,C,D,E company
+    class B tech
     class F,F1,F2,F3 third
     class G,G1,G2,G3 exchange
     class I bank
