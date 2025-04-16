@@ -1,8 +1,8 @@
 ```mermaid
 graph TD
     classDef gov fill:#4CAF50,stroke:#388E3C,color:white;
-    classDef company fill:#2196F3,stroke:#1976D2,color:white;
-    classDef tech fill:#FF9800,stroke:#F57C00;
+    classDef company fill:#FF9800,stroke:#F57C00,color:white;
+    classDef tech fill:#2196F3,stroke:#1976D2;
     classDef ops fill:#9C27B0,stroke:#7B1FA2,color:white;
     classDef third fill:#E91E63,stroke:#C2185B,color:white;
     classDef exchange fill:#009688,stroke:#00796B,color:white;
@@ -14,7 +14,7 @@ graph TD
     C --> C2[数据资产确权]
     C --> C3[技术处理\n（区块链存证）]
     C1 & C2 & C3 --> D[形成数据资产包]
-    D -->|签订运营协议| E[智慧运营公司]
+    D -->|签订运营协议| E[智慧集团]
     E -->|签订运营协议| F[第三方专业机构]
     F --> F1[政务应用场景开发\n（智慧交通）]
     F --> F2[商业应用场景开发\n（精准营销）]
