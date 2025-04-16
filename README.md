@@ -3,8 +3,6 @@ graph TD
     classDef gov fill:#4CAF50,stroke:#388E3C,color:white;
     classDef company fill:#FF9800,stroke:#F57C00,color:white;
     classDef tech fill:#2196F3,stroke:#1976D2;
-    classDef ops fill:#9C27B0,stroke:#7B1FA2,color:white;
-    classDef third fill:#E91E63,stroke:#C2185B,color:white;
     classDef exchange fill:#009688,stroke:#00796B,color:white;
     classDef bank fill:#607D8B,stroke:#455A64,color:white;
 
@@ -28,7 +26,8 @@ graph TD
     B -->|质押/ABS融资| I[商业银行]
 
     class A gov
-    class B,C,D,E company
+    class B,C,E company
+    class D tech
     class C1,C2,C3 tech
     class F,F1,F2,F3 third
     class G,G1,G2,G3 exchange
