@@ -27,7 +27,7 @@ graph TD
 
     class A gov
     class C1,C2,C3,C,E company
-    class D tech
+    class D company
     class B tech
     class F,F1,F2,F3 third
     class G,G1,G2,G3 exchange
